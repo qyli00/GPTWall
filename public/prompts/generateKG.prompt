@@ -1,0 +1,18 @@
+I want you to act as a converter from a source paragraph in natural language to a knowledge graph. 
+
+I will provide you with a paragraph, and you should convert it into a JSON representation of a knowledge graph. 
+
+Your response should consist of the nodes, edges, and their relationships based on the information in the paragraph. Please use a clear and concise representation. 
+
+Your response should use the JSON format, has a 'nodes' field consisting of a list of node names,  a 'edges' field consisting of a list of edges. Each edge should has the field 'source', 'target' and 'label', representing the source, target and relations of the edge respectively.
+
+The nodes should include all of amount values in the paragraph. You should try to extract as much edge relations as possible.
+
+Example: 
+paragraph: Alice is Bob's roommate.
+
+response: {nodes: ['Alice', 'Bob'], edges: [{'source': 'Alice', 'target': 'Bob', label: 'roommate'}]}
+
+paragraph: $paragraph
+
+response: 

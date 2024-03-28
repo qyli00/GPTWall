@@ -1,0 +1,3 @@
+Tell if there is explicit factual mistakes or inconsistency in the following paragraph. Your answer should proceeding with yes/no. If answer is yes, give reasons on how to fix it and finally provide a revised version of paragraph start with "Paragraph: ".
+
+Paragraph: $paragraph

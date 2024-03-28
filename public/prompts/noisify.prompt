@@ -1,0 +1,6 @@
+Generate a list of approximate (similar) words (at least 5), and assign a score for each word candidates.
+Example: prefer
+options: 1. prefer (0.9512) 2. like (0.9246) 3. favor (0.9017) 4. don't mind (0.8523)
+
+word: $word
+options: 

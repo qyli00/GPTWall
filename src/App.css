@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sentence:hover {
+  text-decoration: underline;
+  text-decoration-color: gold;
+  text-decoration-thickness: 2.5px;
+  z-index: 10;
+}
+
+.sentence:hover > * {
+  text-decoration: underline;
+  text-decoration-color: gold;
+  text-decoration-thickness: 2.5px;
+}
+
+
+.context-menu {
+  background: white;
+  /* border-style: solid; */
+  position: absolute;
+  z-index: 10;
+}
+
+.annotated-underline-container {
+  position: relative;
+  display: inline-block;
+}
+
+.annotated-underline-text {
+  position: relative;
+  text-decoration: underline;
+}
+
+.annotated-underline-annotation {
+  position: absolute;
+  bottom: -1.2em; /* Adjust this value to position the annotation text */
+  left: 50%; /* Center-align the annotation */
+  transform: translateX(-50%); /* Adjust to horizontally center the annotation */
+  font-size: 0.8em;
+  color: gray; /* Color of the annotation text */
+}
+
+.field:hover {
+  text-decoration:underline;
+}
+
+.field {
+  color: tomato;
+  font-weight: bold;
+}

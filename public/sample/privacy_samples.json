@@ -1,0 +1,2787 @@
+[
+    {
+        "title": "data analysis",
+        "context": "Analyzing business trends",
+        "graph": {
+            "nodes": [
+                {
+                    "id": "business development manager",
+                    "type": "job title"
+                },
+                {
+                    "id": "sales manager",
+                    "type": "job title"
+                },
+                {
+                    "id": "Terms and Conditions",
+                    "type": "product"
+                },
+                {
+                    "id": "Auckland",
+                    "type": "location"
+                },
+                {
+                    "id": "6months",
+                    "type": "time period"
+                },
+                {
+                    "id": "new registrations",
+                    "type": "action"
+                },
+                {
+                    "id": "sector of business",
+                    "type": "business sector"
+                },
+                {
+                    "id": "date a of registrations",
+                    "type": "date"
+                },
+                {
+                    "id": "column_name",
+                    "type": "data attribute"
+                },
+                {
+                    "id": "data_type",
+                    "type": "data attribute"
+                },
+                {
+                    "id": "nzbn",
+                    "type": "data attribute"
+                },
+                {
+                    "id": "entityName",
+                    "type": "data attribute"
+                },
+                {
+                    "id": "changeDateTime",
+                    "type": "data attribute"
+                },
+                {
+                    "id": "createdAt",
+                    "type": "data attribute"
+                },
+                {
+                    "id": "classificationDescription",
+                    "type": "data attribute"
+                },
+                {
+                    "id": "postCodes",
+                    "type": "data attribute"
+                },
+                {
+                    "id": "WINE KING NEW ZEALAND LIMITED",
+                    "type": "business name"
+                },
+                {
+                    "id": "2022-06-30 08:46:29+12",
+                    "type": "timestamp"
+                },
+                {
+                    "id": "2022-07-01 03:01:24+12",
+                    "type": "timestamp"
+                },
+                {
+                    "id": "Wine mfg",
+                    "type": "business description"
+                },
+                {
+                    "id": "FUSION CONCEPT LIMITED",
+                    "type": "business name"
+                },
+                {
+                    "id": "Glass or glass product mfg - except glass wool or glass wool product",
+                    "type": "business description"
+                },
+                {
+                    "id": "NOTHING SPECIAL LIMITED",
+                    "type": "business name"
+                },
+                {
+                    "id": "Clothing retailing",
+                    "type": "business description"
+                },
+                {
+                    "id": "AK GOOD HOLDINGS LIMITED",
+                    "type": "business name"
+                },
+                {
+                    "id": "Holding company operation - passive investment in subsidiary companies",
+                    "type": "business description"
+                },
+                {
+                    "id": "EVERYBOOBI LIMITED",
+                    "type": "business name"
+                },
+                {
+                    "id": "Womenswear retailing",
+                    "type": "business description"
+                },
+                {
+                    "id": "DUNKLEY FAMILY TRUSTEE COMPANY LIMITED",
+                    "type": "business name"
+                },
+                {
+                    "id": "Trustee service",
+                    "type": "business description"
+                },
+                {
+                    "id": "SHEFA INVESTMENT TRUST LIMITED",
+                    "type": "business name"
+                },
+                {
+                    "id": "Investment - residential property",
+                    "type": "business description"
+                },
+                {
+                    "id": "DINGMI LIMITED",
+                    "type": "business name"
+                },
+                {
+                    "id": "Soft drink retailing",
+                    "type": "business description"
+                },
+                {
+                    "id": "DCH CONSTRUCTION LIMITED",
+                    "type": "business name"
+                },
+                {
+                    "id": "Building, house construction",
+                    "type": "business description"
+                },
+                {
+                    "id": "TUI FISHING CHARTERS LIMITED",
+                    "type": "business name"
+                },
+                {
+                    "id": "Rental of boats and yachts",
+                    "type": "business description"
+                },
+                {
+                    "id": "KAURZ PROJECTS LIMITED",
+                    "type": "business name"
+                },
+                {
+                    "id": "Accounting service",
+                    "type": "business description"
+                },
+                {
+                    "id": "MANAH CONSTRUCTION LIMITED",
+                    "type": "business name"
+                },
+                {
+                    "id": "Insulation material installation",
+                    "type": "business description"
+                },
+                {
+                    "id": "KAAB CORP LIMITED",
+                    "type": "business name"
+                },
+                {
+                    "id": "JJ SKY CONSTRUCTION LIMITED",
+                    "type": "business name"
+                },
+                {
+                    "id": "LAVA VAPE ZONE NZ LIMITED",
+                    "type": "business name"
+                },
+                {
+                    "id": "TINFL LIMITED",
+                    "type": "business name"
+                },
+                {
+                    "id": "VS GRACE CONSTRUCTION LIMITED",
+                    "type": "business name"
+                },
+                {
+                    "id": "PHILLYBEE CANDLES LIMITED",
+                    "type": "business name"
+                },
+                {
+                    "id": "HUMBLE PAINTER'S LIMITED",
+                    "type": "business name"
+                },
+                {
+                    "id": "HERKT BROZ LIMITED",
+                    "type": "business name"
+                },
+                {
+                    "id": "SCOTT GAZLEY LIMITED",
+                    "type": "business name"
+                },
+                {
+                    "id": "CALVIN PIANO ACADEMY LIMITED",
+                    "type": "business name"
+                },
+                {
+                    "id": "KAUE HOLDINGS LIMITED",
+                    "type": "business name"
+                },
+                {
+                    "id": "TAMA TOA CONSTRUCTION LIMITED",
+                    "type": "business name"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "business development manager",
+                    "target": "Terms and Conditions",
+                    "label": "sell"
+                },
+                {
+                    "source": "sales manager",
+                    "target": "Terms and Conditions",
+                    "label": "sell"
+                },
+                {
+                    "source": "Auckland",
+                    "target": "business sector",
+                    "label": "specific areas"
+                },
+                {
+                    "source": "6months",
+                    "target": "new registrations",
+                    "label": "time period"
+                },
+                {
+                    "source": "new registrations",
+                    "target": "sector of business",
+                    "label": "data"
+                },
+                {
+                    "source": "date a of registrations",
+                    "target": "sector of business",
+                    "label": "data"
+                },
+                {
+                    "source": "column_name",
+                    "target": "data_type",
+                    "label": "data attribute"
+                },
+                {
+                    "source": "nzbn",
+                    "target": "data_type",
+                    "label": "data attribute"
+                },
+                {
+                    "source": "entityName",
+                    "target": "data_type",
+                    "label": "data attribute"
+                },
+                {
+                    "source": "changeDateTime",
+                    "target": "data_type",
+                    "label": "data attribute"
+                },
+                {
+                    "source": "createdAt",
+                    "target": "data_type",
+                    "label": "data attribute"
+                },
+                {
+                    "source": "classificationDescription",
+                    "target": "data_type",
+                    "label": "data attribute"
+                },
+                {
+                    "source": "postCodes",
+                    "target": "data_type",
+                    "label": "data attribute"
+                },
+                {
+                    "source": "WINE KING NEW ZEALAND LIMITED",
+                    "target": "2022-06-30 08:46:29+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "WINE KING NEW ZEALAND LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                },
+                {
+                    "source": "WINE KING NEW ZEALAND LIMITED",
+                    "target": "Wine mfg",
+                    "label": "classificationDescription"
+                },
+                {
+                    "source": "FUSION CONCEPT LIMITED",
+                    "target": "2022-06-30 08:55:32+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "FUSION CONCEPT LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                },
+                {
+                    "source": "FUSION CONCEPT LIMITED",
+                    "target": "Glass or glass product mfg - except glass wool or glass wool product",
+                    "label": "classificationDescription"
+                },
+                {
+                    "source": "NOTHING SPECIAL LIMITED",
+                    "target": "2022-06-30 08:57:19+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "NOTHING SPECIAL LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                },
+                {
+                    "source": "NOTHING SPECIAL LIMITED",
+                    "target": "Clothing retailing",
+                    "label": "classificationDescription"
+                },
+                {
+                    "source": "AK GOOD HOLDINGS LIMITED",
+                    "target": "2022-06-30 09:02:57+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "AK GOOD HOLDINGS LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                },
+                {
+                    "source": "AK GOOD HOLDINGS LIMITED",
+                    "target": "Holding company operation - passive investment in subsidiary companies",
+                    "label": "classificationDescription"
+                },
+                {
+                    "source": "EVERYBOOBI LIMITED",
+                    "target": "2022-06-30 10:18:43+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "EVERYBOOBI LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                },
+                {
+                    "source": "EVERYBOOBI LIMITED",
+                    "target": "Womenswear retailing",
+                    "label": "classificationDescription"
+                },
+                {
+                    "source": "DUNKLEY FAMILY TRUSTEE COMPANY LIMITED",
+                    "target": "2022-06-30 09:10:37+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "DUNKLEY FAMILY TRUSTEE COMPANY LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                },
+                {
+                    "source": "DUNKLEY FAMILY TRUSTEE COMPANY LIMITED",
+                    "target": "Trustee service",
+                    "label": "classificationDescription"
+                },
+                {
+                    "source": "SHEFA INVESTMENT TRUST LIMITED",
+                    "target": "2022-06-30 09:14:15+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "SHEFA INVESTMENT TRUST LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                },
+                {
+                    "source": "SHEFA INVESTMENT TRUST LIMITED",
+                    "target": "Investment - residential property",
+                    "label": "classificationDescription"
+                },
+                {
+                    "source": "DINGMI LIMITED",
+                    "target": "2022-06-30 09:36:56+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "DINGMI LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                },
+                {
+                    "source": "DINGMI LIMITED",
+                    "target": "Soft drink retailing",
+                    "label": "classificationDescription"
+                },
+                {
+                    "source": "DCH CONSTRUCTION LIMITED",
+                    "target": "2022-06-30 10:14:54+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "DCH CONSTRUCTION LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                },
+                {
+                    "source": "DCH CONSTRUCTION LIMITED",
+                    "target": "Building, house construction",
+                    "label": "classificationDescription"
+                },
+                {
+                    "source": "TUI FISHING CHARTERS LIMITED",
+                    "target": "2022-06-30 10:25:09+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "TUI FISHING CHARTERS LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                },
+                {
+                    "source": "TUI FISHING CHARTERS LIMITED",
+                    "target": "Rental of boats and yachts",
+                    "label": "classificationDescription"
+                },
+                {
+                    "source": "KAURZ PROJECTS LIMITED",
+                    "target": "2022-06-30 10:41:33+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "KAURZ PROJECTS LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                },
+                {
+                    "source": "KAURZ PROJECTS LIMITED",
+                    "target": "Accounting service",
+                    "label": "classificationDescription"
+                },
+                {
+                    "source": "MANAH CONSTRUCTION LIMITED",
+                    "target": "2022-06-30 10:43:28+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "MANAH CONSTRUCTION LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                },
+                {
+                    "source": "MANAH CONSTRUCTION LIMITED",
+                    "target": "Insulation material installation",
+                    "label": "classificationDescription"
+                },
+                {
+                    "source": "KAAB CORP LIMITED",
+                    "target": "2022-06-30 10:53:46+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "KAAB CORP LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                },
+                {
+                    "source": "JJ SKY CONSTRUCTION LIMITED",
+                    "target": "2022-06-30 11:55:43+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "JJ SKY CONSTRUCTION LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                },
+                {
+                    "source": "LAVA VAPE ZONE NZ LIMITED",
+                    "target": "2022-06-30 12:12:41+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "LAVA VAPE ZONE NZ LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                },
+                {
+                    "source": "TINFL LIMITED",
+                    "target": "2022-06-30 12:39:12+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "TINFL LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                },
+                {
+                    "source": "VS GRACE CONSTRUCTION LIMITED",
+                    "target": "2022-06-30 13:41:27+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "VS GRACE CONSTRUCTION LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                },
+                {
+                    "source": "PHILLYBEE CANDLES LIMITED",
+                    "target": "2022-06-30 13:49:53+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "PHILLYBEE CANDLES LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                },
+                {
+                    "source": "HUMBLE PAINTER'S LIMITED",
+                    "target": "2022-06-30 13:54:22+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "HUMBLE PAINTER'S LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                },
+                {
+                    "source": "HERKT BROZ LIMITED",
+                    "target": "2022-06-30 14:06:54+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "HERKT BROZ LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                },
+                {
+                    "source": "SCOTT GAZLEY LIMITED",
+                    "target": "2022-06-30 14:07:37+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "SCOTT GAZLEY LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                },
+                {
+                    "source": "CALVIN PIANO ACADEMY LIMITED",
+                    "target": "2022-06-30 14:11:59+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "CALVIN PIANO ACADEMY LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                },
+                {
+                    "source": "KAUE HOLDINGS LIMITED",
+                    "target": "2022-06-30 14:12:36+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "KAUE HOLDINGS LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                },
+                {
+                    "source": "TAMA TOA CONSTRUCTION LIMITED",
+                    "target": "2022-06-30 14:26:21+12",
+                    "label": "changeDateTime"
+                },
+                {
+                    "source": "TAMA TOA CONSTRUCTION LIMITED",
+                    "target": "2022-07-01 03:01:24+12",
+                    "label": "createdAt"
+                }
+            ]
+        },
+        "prompt": "Can I provide you a bunch of data that would could then extract interesting statistics that would be informative for a business development manager or sales manager?\nThe goals are to sell more Terms and Conditions.\nThe data I have is on newly registered businesses in specific areas in Auckland. The demographics of these areas I do not know. But I can provide 6months worth of new registrations in each sector of business. Also the date a of registrations.\nhere is the format of the data.\n\n| column\\_name | data\\_type |\n| ------------------------- | ------------------------ |\n| nzbn | text |\n| entityName | text |\n| changeDateTime | timestamp with time zone |\n| createdAt | timestamp with time zone |\n| classificationDescription | text |\n| postCodes | ARRAY |\nOk, here is the data.\n\n\"entityName\",\"changeDateTime\",\"createdAt\",\"classificationDescription\",\"postCodes\"\n\"WINE KING NEW ZEALAND LIMITED\",\"2022-06-30 08:46:29+12\",\"2022-07-01 03:01:24+12\",\"Wine mfg\",\"[\"0600\"]\"\n\"FUSION CONCEPT LIMITED\",\"2022-06-30 08:55:32+12\",\"2022-07-01 03:01:24+12\",\"Glass or glass product mfg - except glass wool or glass wool product\",\"[\"0600\"]\"\n\"NOTHING SPECIAL LIMITED\",\"2022-06-30 08:57:19+12\",\"2022-07-01 03:01:24+12\",\"Clothing retailing\",\"[\"0610\"]\"\n\"AK GOOD HOLDINGS LIMITED\",\"2022-06-30 09:02:57+12\",\"2022-07-01 03:01:24+12\",\"Holding company operation - passive investment in subsidiary companies\",\"[\"1041\"]\"\n\"EVERYBOOBI LIMITED\",\"2022-06-30 10:18:43+12\",\"2022-07-01 03:01:24+12\",\"Womenswear retailing\",\"[\"1061\"]\"\n\"DUNKLEY FAMILY TRUSTEE COMPANY LIMITED\",\"2022-06-30 09:10:37+12\",\"2022-07-01 03:01:24+12\",\"Trustee service\",\"[\"0630\"]\"\n\"SHEFA INVESTMENT TRUST LIMITED\",\"2022-06-30 09:14:15+12\",\"2022-07-01 03:01:24+12\",\"Investment - residential property\",\"[\"2010\",\"1024\"]\"\n\"DINGMI LIMITED\",\"2022-06-30 09:36:56+12\",\"2022-07-01 03:01:24+12\",\"Soft drink retailing\",\"[\"0632\",\"0892\"]\"\n\"DCH CONSTRUCTION LIMITED\",\"2022-06-30 10:14:54+12\",\"2022-07-01 03:01:24+12\",\"Building, house construction\",\"[\"0614\"]\"\n\"TUI FISHING CHARTERS LIMITED\",\"2022-06-30 10:25:09+12\",\"2022-07-01 03:01:24+12\",\"Rental of boats and yachts\",\"[\"1051\"]\"\n\"KAURZ PROJECTS LIMITED\",\"2022-06-30 10:41:33+12\",\"2022-07-01 03:01:24+12\",\"Accounting service\",\"[\"0612\"]\"\n\"MANAH CONSTRUCTION LIMITED\",\"2022-06-30 10:43:28+12\",\"2022-07-01 03:01:24+12\",\"Insulation material installation\",\"[\"0600\"]\"\n\"KAAB CORP LIMITED\",\"2022-06-30 10:53:46+12\",\"2022-07-01 03:01:24+12\",\"Investment - residential property\",\"[\"1024\"]\"\n\"JJ SKY CONSTRUCTION LIMITED\",\"2022-06-30 11:55:43+12\",\"2022-07-01 03:01:24+12\",\"Building, house construction\",\"[\"0630\"]\"\n\"LAVA VAPE ZONE NZ LIMITED\",\"2022-06-30 12:12:41+12\",\"2022-07-01 03:01:24+12\",\"Tobacco product retailing\",\"[\"0618\"]\"\n\"TINFL LIMITED\",\"2022-06-30 12:39:12+12\",\"2022-07-01 03:01:24+12\",\"Business consultant service\",\"[\"1041\"]\"\n\"VS GRACE CONSTRUCTION LIMITED\",\"2022-06-30 13:41:27+12\",\"2022-07-01 03:01:24+12\",\"Building, house construction\",\"[\"2018\",\"1026\"]\"\n\"PHILLYBEE CANDLES LIMITED\",\"2022-06-30 13:49:53+12\",\"2022-07-01 03:01:24+12\",\"Candle mfg\",\"[\"0810\"]\"\n\"HUMBLE PAINTER'S LIMITED\",\"2022-06-30 13:54:22+12\",\"2022-07-01 03:01:24+12\",\"House painting\",\"[\"0612\"]\"\n\"HERKT BROZ LIMITED\",\"2022-06-30 14:06:54+12\",\"2022-07-01 03:01:24+12\",\"Earthmoving plant and equipment hiring with operator\",\"[\"0614\"]\"\n\"SCOTT GAZLEY LIMITED\",\"2022-06-30 14:07:37+12\",\"2022-07-01 03:01:24+12\",\"Legal service\",\"[\"1041\"]\"\n\"CALVIN PIANO ACADEMY LIMITED\",\"2022-06-30 14:11:59+12\",\"2022-07-01 03:01:24+12\",\"Music teaching\",\"[\"1061\"]\"\n\"KAUE HOLDINGS LIMITED\",\"2022-06-30 14:12:36+12\",\"2022-07-01 03:01:24+12\",\"Business administrative service\",\"[\"1025\"]\"\n\"TAMA TOA CONSTRUCTION LIMITED\",\"2022-06-30 14:26:21+12\",\"2022-07-01 03:01:24+12\",\"Building, house construction\",\"[\"0610\",\"0612\"]\""
+    },
+    {
+        "title": "resume assessment",
+        "context": "Creating structured outlines and reports",
+        "graph": {
+            "nodes": [
+                {
+                    "id": "ESG",
+                    "type": "field"
+                },
+                {
+                    "id": "New mobility",
+                    "type": "field"
+                },
+                {
+                    "id": "Energy Transition",
+                    "type": "field"
+                },
+                {
+                    "id": "M&A",
+                    "type": "field"
+                },
+                {
+                    "id": "NXLab",
+                    "type": "organization"
+                },
+                {
+                    "id": "web3",
+                    "type": "technology"
+                },
+                {
+                    "id": "AI",
+                    "type": "technology"
+                },
+                {
+                    "id": "crypto exchanges",
+                    "type": "partnership"
+                },
+                {
+                    "id": "startups",
+                    "type": "partnership"
+                },
+                {
+                    "id": "small/medium-sized businesses",
+                    "type": "partnership"
+                },
+                {
+                    "id": "user-friendly mobile application services",
+                    "type": "business strategy"
+                },
+                {
+                    "id": "CSR initiatives",
+                    "type": "initiative"
+                },
+                {
+                    "id": "children\u2019s rehabilitation hospitals",
+                    "type": "initiative"
+                },
+                {
+                    "id": "respite centers",
+                    "type": "initiative"
+                },
+                {
+                    "id": "brick play",
+                    "type": "initiative"
+                },
+                {
+                    "id": "NXC",
+                    "type": "brand"
+                },
+                {
+                    "id": "subsidiaries",
+                    "type": "brand"
+                },
+                {
+                    "id": "intellectual property licensing process",
+                    "type": "process"
+                },
+                {
+                    "id": "press releases",
+                    "type": "document"
+                },
+                {
+                    "id": "Q&As",
+                    "type": "document"
+                },
+                {
+                    "id": "executives",
+                    "type": "role"
+                },
+                {
+                    "id": "publics",
+                    "type": "role"
+                },
+                {
+                    "id": "news media",
+                    "type": "role"
+                },
+                {
+                    "id": "community",
+                    "type": "role"
+                },
+                {
+                    "id": "public affairs offices",
+                    "type": "role"
+                },
+                {
+                    "id": "NGOs",
+                    "type": "role"
+                },
+                {
+                    "id": "audience targeting ad-network",
+                    "type": "platform"
+                },
+                {
+                    "id": "Data Management Platform",
+                    "type": "platform"
+                },
+                {
+                    "id": "machine learning approaches",
+                    "type": "approach"
+                },
+                {
+                    "id": "patent",
+                    "type": "document"
+                },
+                {
+                    "id": "biz platform",
+                    "type": "platform"
+                },
+                {
+                    "id": "$150K monthly revenue",
+                    "type": "amount"
+                },
+                {
+                    "id": "pre-sales processes",
+                    "type": "process"
+                },
+                {
+                    "id": "Android lock screen service",
+                    "type": "service"
+                },
+                {
+                    "id": "daily active users",
+                    "type": "metric"
+                },
+                {
+                    "id": "user retention rates",
+                    "type": "metric"
+                },
+                {
+                    "id": "interactive lock screen interface",
+                    "type": "interface"
+                },
+                {
+                    "id": "startup senior leaderships",
+                    "type": "role"
+                },
+                {
+                    "id": "revenue generation endeavors",
+                    "type": "endeavor"
+                },
+                {
+                    "id": "news articles",
+                    "type": "document"
+                },
+                {
+                    "id": "content providers",
+                    "type": "role"
+                },
+                {
+                    "id": "$1M",
+                    "type": "amount"
+                },
+                {
+                    "id": "IoT",
+                    "type": "technology"
+                },
+                {
+                    "id": "Big Data",
+                    "type": "technology"
+                },
+                {
+                    "id": "environment rental service company",
+                    "type": "partnership"
+                },
+                {
+                    "id": "Government of Rwanda",
+                    "type": "partnership"
+                },
+                {
+                    "id": "public-private partnership project",
+                    "type": "project"
+                },
+                {
+                    "id": "LTE network roll-out",
+                    "type": "project"
+                },
+                {
+                    "id": "South Africa\u2019s largest integrated communications operator",
+                    "type": "partnership"
+                },
+                {
+                    "id": "business development strategy",
+                    "type": "strategy"
+                },
+                {
+                    "id": "renewable energy market",
+                    "type": "market"
+                },
+                {
+                    "id": "senior & working-level sales opportunities",
+                    "type": "opportunity"
+                },
+                {
+                    "id": "public/private operators",
+                    "type": "partnership"
+                },
+                {
+                    "id": "governments",
+                    "type": "partnership"
+                },
+                {
+                    "id": "U.S.",
+                    "type": "location"
+                },
+                {
+                    "id": "Ecuador",
+                    "type": "location"
+                },
+                {
+                    "id": "Myanmar",
+                    "type": "location"
+                },
+                {
+                    "id": "Tunisia",
+                    "type": "location"
+                },
+                {
+                    "id": "Tanzania",
+                    "type": "location"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "NXLab",
+                    "target": "ESG",
+                    "label": "contribution"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "New mobility",
+                    "label": "contribution"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "Energy Transition",
+                    "label": "contribution"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "M&A",
+                    "label": "contribution"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "web3",
+                    "label": "technology trend"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "AI",
+                    "label": "technology trend"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "crypto exchanges",
+                    "label": "partnership opportunity"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "startups",
+                    "label": "partnership opportunity"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "small/medium-sized businesses",
+                    "label": "partnership opportunity"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "user-friendly mobile application services",
+                    "label": "business strategy"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "CSR initiatives",
+                    "label": "opportunity"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "children\u2019s rehabilitation hospitals",
+                    "label": "opportunity"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "respite centers",
+                    "label": "opportunity"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "brick play",
+                    "label": "opportunity"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "NXC",
+                    "label": "brand awareness"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "subsidiaries",
+                    "label": "brand awareness"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "intellectual property licensing process",
+                    "label": "process"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "press releases",
+                    "label": "document"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "Q&As",
+                    "label": "document"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "executives",
+                    "label": "role"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "publics",
+                    "label": "role"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "news media",
+                    "label": "role"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "community",
+                    "label": "role"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "public affairs offices",
+                    "label": "role"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "NGOs",
+                    "label": "role"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "audience targeting ad-network",
+                    "label": "platform"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "Data Management Platform",
+                    "label": "platform"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "machine learning approaches",
+                    "label": "approach"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "patent",
+                    "label": "document"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "biz platform",
+                    "label": "platform"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "$150K monthly revenue",
+                    "label": "amount"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "pre-sales processes",
+                    "label": "process"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "Android lock screen service",
+                    "label": "service"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "daily active users",
+                    "label": "metric"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "user retention rates",
+                    "label": "metric"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "interactive lock screen interface",
+                    "label": "interface"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "startup senior leaderships",
+                    "label": "role"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "revenue generation endeavors",
+                    "label": "endeavor"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "news articles",
+                    "label": "document"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "content providers",
+                    "label": "role"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "$1M",
+                    "label": "amount"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "IoT",
+                    "label": "technology"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "Big Data",
+                    "label": "technology"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "environment rental service company",
+                    "label": "partnership"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "Government of Rwanda",
+                    "label": "partnership"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "public-private partnership project",
+                    "label": "project"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "LTE network roll-out",
+                    "label": "project"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "South Africa\u2019s largest integrated communications operator",
+                    "label": "partnership"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "business development strategy",
+                    "label": "strategy"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "renewable energy market",
+                    "label": "market"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "senior & working-level sales opportunities",
+                    "label": "opportunity"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "public/private operators",
+                    "label": "partnership"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "governments",
+                    "label": "partnership"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "U.S.",
+                    "label": "location"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "Ecuador",
+                    "label": "location"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "Myanmar",
+                    "label": "location"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "Tunisia",
+                    "label": "location"
+                },
+                {
+                    "source": "NXLab",
+                    "target": "Tanzania",
+                    "label": "location"
+                }
+            ]
+        },
+        "prompt": "Based on information provided, I want you to mix relevant information and layout how this person can contribute to the fields of 1) ESG, 2) New mobility, 3) Energy Transition, and 4) M&A.1. \n\n\u2022 Researched a wide range of potential mobile service/platforms for NXLab - an incubation-like functional organization. \n\u2022 Analyzed new technology trends (i.e., web3 or AI) that may incorporate into the new collaboration tool.\n\u2022 Searched for strategic partnership opportunities with startups or small/medium-sized businesses.\n\u2022 Established partnerships with major crypto exchanges and completed respective onboarding & compliance processes.\n\u2022 Formulated business strategies to develop user-friendly mobile application services for overseas markets.\n\u2022 Proactively identified opportunities to support CSR initiatives such as the construction of children\u2019s rehabilitation hospitals, respite centers, and utilization of brick play to promote children\u2019s creativity. \n\u2022 Developed effective communication strategies to increase brand awareness for NXC and its subsidiaries. \n\u2022 Managed the intellectual property licensing process of overseas branches in collaboration with the IP team.\n\u2022 Drafted press releases and Q&As for news media as well as interview responses for executives.\n\u2022 Built and fostered relationships with various publics, including major news media, members of the community, public affairs offices, NGOs, etc.\n\u2022 Managed the audience targeting ad-network with timely upgrades of the Data Management Platform by adopting machine learning approaches.\n\u2022 Registered a patent for \u2018Advertising system and method based on predicted user interest.\u2019\n\u2022 Devised a new biz platform that earned an average of $150K monthly revenue and managed its pre-sales processes. \n\u2022 Analyzed key performance indicators for the Android lock screen service that covers over 2M daily active users.\n\u2022 Enhanced user retention rates by 15% by launching the user-friendly interactive lock screen interface. \n\u2022 Actively engaged with various startup senior leaderships to strategically manage revenue generation endeavors. \n\u2022 Supervised news articles and content review processes from over 60 content providers.\n\u2022 Executed $1M size of KT\u2019s first IoT(Internet of Things) & Big Data project with the No.1 environment rental service company in Korea.\n\u2022 Actively supported a $10M joint venture project for system integration and ICT in conjunction with the Government of Rwanda.\n\u2022 Implemented a $140M-size public-private partnership project with the Government of Rwanda regarding a nationwide advanced & secured LTE network roll-out.\n\u2022 Managed a $30M-size company-wide project with over 60 people focused on service-centric consulting for South Africa\u2019s largest integrated communications operator.\n\u2022 Formulated a new business development strategy for IoT and healthcare-related solutions.\n\u2022 Conducted a feasibility study for entering the renewable energy market in North America.\n\u2022 Coordinated over 20 senior & working-level sales opportunities with public/private operators and\ngovernments in the U.S., Ecuador, Myanmar, Tunisia, Tanzania, etc.\n2. Now based on information provided, I want you to layout how this person can contribute to the fields of 1) ESG, 2) New mobility, 3) Energy Transition, and 4) M&A."
+    },
+    {
+        "title": "business consultant",
+        "context": "Analyzing business trends",
+        "graph": {
+            "nodes": [
+                {
+                    "id": "\u20ac1.252,36",
+                    "type": "amount"
+                },
+                {
+                    "id": "\u20ac7,500",
+                    "type": "amount"
+                },
+                {
+                    "id": "\u20ac450",
+                    "type": "amount"
+                },
+                {
+                    "id": "\u20ac1,400",
+                    "type": "amount"
+                },
+                {
+                    "id": "\u20ac10,000",
+                    "type": "amount"
+                },
+                {
+                    "id": "\u20ac12,500",
+                    "type": "amount"
+                },
+                {
+                    "id": "1 BTC",
+                    "type": "cryptocurrency"
+                },
+                {
+                    "id": "1 ETH",
+                    "type": "cryptocurrency"
+                },
+                {
+                    "id": "1 DOGE",
+                    "type": "cryptocurrency"
+                },
+                {
+                    "id": "1 SOL",
+                    "type": "cryptocurrency"
+                },
+                {
+                    "id": "1 ADA",
+                    "type": "cryptocurrency"
+                },
+                {
+                    "id": "\u20ac594",
+                    "type": "cryptocurrency"
+                },
+                {
+                    "id": "\u20ac288",
+                    "type": "cryptocurrency"
+                },
+                {
+                    "id": "\u20ac180",
+                    "type": "cryptocurrency"
+                },
+                {
+                    "id": "\u20ac115",
+                    "type": "cryptocurrency"
+                },
+                {
+                    "id": "\u20ac102",
+                    "type": "cryptocurrency"
+                },
+                {
+                    "id": "15 shares",
+                    "type": "stock"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "\u20ac1.252,36",
+                    "target": "Current savings rate",
+                    "label": "income per month"
+                },
+                {
+                    "source": "\u20ac7,500",
+                    "target": "Current savings rate",
+                    "label": "income per year"
+                },
+                {
+                    "source": "\u20ac450",
+                    "target": "Current savings rate",
+                    "label": "income per month"
+                },
+                {
+                    "source": "\u20ac1,400",
+                    "target": "Current savings rate",
+                    "label": "expenses per month"
+                },
+                {
+                    "source": "\u20ac10,000",
+                    "target": "Current savings rate",
+                    "label": "current savings"
+                },
+                {
+                    "source": "\u20ac12,500",
+                    "target": "Current savings rate",
+                    "label": "total savings"
+                },
+                {
+                    "source": "1 BTC",
+                    "target": "Current savings rate",
+                    "label": "cryptocurrency"
+                },
+                {
+                    "source": "1 ETH",
+                    "target": "Current savings rate",
+                    "label": "cryptocurrency"
+                },
+                {
+                    "source": "1 DOGE",
+                    "target": "Current savings rate",
+                    "label": "cryptocurrency"
+                },
+                {
+                    "source": "1 SOL",
+                    "target": "Current savings rate",
+                    "label": "cryptocurrency"
+                },
+                {
+                    "source": "1 ADA",
+                    "target": "Current savings rate",
+                    "label": "cryptocurrency"
+                },
+                {
+                    "source": "\u20ac594",
+                    "target": "Current savings rate",
+                    "label": "cryptocurrency"
+                },
+                {
+                    "source": "\u20ac288",
+                    "target": "Current savings rate",
+                    "label": "cryptocurrency"
+                },
+                {
+                    "source": "\u20ac180",
+                    "target": "Current savings rate",
+                    "label": "cryptocurrency"
+                },
+                {
+                    "source": "\u20ac115",
+                    "target": "Current savings rate",
+                    "label": "cryptocurrency"
+                },
+                {
+                    "source": "\u20ac102",
+                    "target": "Current savings rate",
+                    "label": "cryptocurrency"
+                },
+                {
+                    "source": "15 shares",
+                    "target": "Current savings rate",
+                    "label": "stock"
+                }
+            ]
+        },
+        "prompt": "I would like for you to act a a business consultant that has vast experience in emerging places like st tropez and monaco. Spelized in islands. I'm going to give you a description of a place and my observations and I would like you to give me feedback and advice. I will also feed you data from different investment reports that I can get from internet. How ever you will need to give me directions and ask the right question with out explaining your reasoningen unless I ask you for it. Please confirm what you have understood, before I provide you with input.\nhuman: yes. Can I give you context and my reason of doing this excercise?\nhuman: the island in question is the island of sao vicente cabo verde. I'm in a position that im able to movefreely. Meaning I can rent out my home while I try to fiigure out what businesses en what business model would fit me and my lifestyle and intrest. And since i have a natural relationship with cabo verde i also speak the local language (my parents are from there). I have 10000euro to my name and my girlfriend has the same amount and she will be moving with me. So this excercise is to go step for step of thing we need to prepare like our churn rate and savings rate and get these out put from you. To locating business oppertunities from the input i feed you from data and my own personal experiences. So I need to guide me through this process, by asking the input/data you need to make suggestions. With the goals that me and my girlfriend can focus on building something for ourselves. My first year I already have my focus. And that I building my name in the online world by organizing a tedx event in mindelo. So this will be my first project execuring. it isnt a business yet, however people can get to see that im providing value. also im also podcasting. last year I stayed there for twelve month and spoke to various people, i still have to upload 20 more episoded that I have on my hard drive. So this is a bit of my self. Let me know what you have understood and provide me with max 3 questions to which I can provide you with input so that we can continue.\nhuman: save these 3 questions in your memory. We will start by question 1. What input would you need from me, so that we can calculate the current savings rate\nhuman: at the moment I have several incomes streams. 1 is my airbnd that fluctuates, so i will take the data from last year the avg income per month was \u20ac 1.252,36 , second income is my study money since I follow a online undergraduate in psychology. That pays out every year for the coming 3 years in the month of feb. 7500eur and in the month of sep. 7500eur. 3. income is the one i get from the state gov that is an amount of 450eur per month.\nMy current expenses amount to a total of:\nan avg of 1400eur per month.\nMy savings are at the moment little more than 10k ( 12500eur) to be exact. from which the total savings has also money in crypto (1 btc=19182eur, 1eth= 1409eur, 1doge=0.08, 1sol=21, 1ada=0.32) I have 594eur in btc, 288eur in eth, 180eur in doge, 115eur in sol , 102eur in ada. and tesla stock 15 shares of 122.41 dollar each.\nI have been saving for 3 years now and I would like to increase our collective savings to 35000eur. Everything above that , sicne we have no kids, can be reinvested in the potential business."
+    },
+    {
+        "title": "weekly report",
+        "context": "Creating structured outlines and reports",
+        "graph": {
+            "nodes": [
+                {
+                    "id": "Weekly report",
+                    "type": "report"
+                },
+                {
+                    "id": "first week",
+                    "type": "week"
+                },
+                {
+                    "id": "training",
+                    "type": "training"
+                },
+                {
+                    "id": "rqeem for smart solutions",
+                    "type": "company"
+                },
+                {
+                    "id": "business analyst intern",
+                    "type": "job title"
+                },
+                {
+                    "id": "director of the digital solution dept",
+                    "type": "person"
+                },
+                {
+                    "id": "Mr. Abdulrahman Al-Aqeel",
+                    "type": "person"
+                },
+                {
+                    "id": "CEO Eng. Bandar Alanzi",
+                    "type": "person"
+                },
+                {
+                    "id": "Outsystems platform",
+                    "type": "platform"
+                },
+                {
+                    "id": "Low-code platform",
+                    "type": "platform"
+                },
+                {
+                    "id": "application",
+                    "type": "application"
+                },
+                {
+                    "id": "costumers",
+                    "type": "customer"
+                },
+                {
+                    "id": "courses",
+                    "type": "course"
+                },
+                {
+                    "id": "Build and Manage your Backlog",
+                    "type": "course"
+                },
+                {
+                    "id": "Agile Methodology",
+                    "type": "course"
+                },
+                {
+                    "id": "Business Vision",
+                    "type": "course"
+                },
+                {
+                    "id": "Gather Requirements into User Stories",
+                    "type": "course"
+                },
+                {
+                    "id": "Infrastructure Management",
+                    "type": "course"
+                },
+                {
+                    "id": "Integrating with External Databases",
+                    "type": "course"
+                },
+                {
+                    "id": "Integrating with Web Services",
+                    "type": "course"
+                },
+                {
+                    "id": "Integration Studio Overview",
+                    "type": "course"
+                },
+                {
+                    "id": "Solution Release",
+                    "type": "course"
+                },
+                {
+                    "id": "Storytelling",
+                    "type": "course"
+                },
+                {
+                    "id": "The OutSystems Method",
+                    "type": "course"
+                },
+                {
+                    "id": "Guided Paths",
+                    "type": "guided path"
+                },
+                {
+                    "id": "Becoming a Mobile Developer",
+                    "type": "guided path"
+                },
+                {
+                    "id": "Becoming a Reactive Web Developer",
+                    "type": "guided path"
+                },
+                {
+                    "id": "Becoming an OutSystems Business Analyst",
+                    "type": "guided path"
+                },
+                {
+                    "id": "project",
+                    "type": "project"
+                },
+                {
+                    "id": "RCJY Investment Opportunities platform",
+                    "type": "platform"
+                },
+                {
+                    "id": "bugs",
+                    "type": "issue"
+                },
+                {
+                    "id": "spilling mistakes",
+                    "type": "issue"
+                },
+                {
+                    "id": "shared excel file",
+                    "type": "file"
+                },
+                {
+                    "id": "development team",
+                    "type": "team"
+                },
+                {
+                    "id": "user manual presentation slides",
+                    "type": "slides"
+                },
+                {
+                    "id": "end-user",
+                    "type": "user"
+                },
+                {
+                    "id": "Investor",
+                    "type": "user"
+                },
+                {
+                    "id": "internal-user",
+                    "type": "user"
+                },
+                {
+                    "id": "Industrial Employee",
+                    "type": "user"
+                },
+                {
+                    "id": "Commercial Employee",
+                    "type": "user"
+                },
+                {
+                    "id": "Bids Opening Committee",
+                    "type": "user"
+                },
+                {
+                    "id": "Bids Evaluation Committee",
+                    "type": "user"
+                },
+                {
+                    "id": "Evaluation Committee Leader",
+                    "type": "user"
+                },
+                {
+                    "id": "City CEO",
+                    "type": "user"
+                },
+                {
+                    "id": "RCJY Chairman",
+                    "type": "user"
+                },
+                {
+                    "id": "QA tester",
+                    "type": "job title"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "Weekly report",
+                    "target": "first week",
+                    "label": "through"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "training",
+                    "label": "through"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "rqeem for smart solutions",
+                    "label": "at"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "business analyst intern",
+                    "label": "as"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "director of the digital solution dept",
+                    "label": "with"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "Mr. Abdulrahman Al-Aqeel",
+                    "label": "with"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "CEO Eng. Bandar Alanzi",
+                    "label": "with"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "Outsystems platform",
+                    "label": "know"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "Low-code platform",
+                    "label": "used"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "application",
+                    "label": "develop"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "costumers",
+                    "label": "for"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "courses",
+                    "label": "taken"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "Guided Paths",
+                    "label": "taken"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "project",
+                    "label": "about"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "RCJY Investment Opportunities platform",
+                    "label": "about"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "bugs",
+                    "label": "test"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "spilling mistakes",
+                    "label": "test"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "shared excel file",
+                    "label": "write"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "development team",
+                    "label": "communication"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "user manual presentation slides",
+                    "label": "working on"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "end-user",
+                    "label": "for"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "Investor",
+                    "label": "for"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "internal-user",
+                    "label": "for"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "Industrial Employee",
+                    "label": "for"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "Commercial Employee",
+                    "label": "for"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "Bids Opening Committee",
+                    "label": "for"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "Bids Evaluation Committee",
+                    "label": "for"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "Evaluation Committee Leader",
+                    "label": "for"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "City CEO",
+                    "label": "for"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "RCJY Chairman",
+                    "label": "for"
+                },
+                {
+                    "source": "Weekly report",
+                    "target": "QA tester",
+                    "label": "as"
+                }
+            ]
+        },
+        "prompt": "I want you to write a Weekly report about what I have done through the first week of my training at rqeem for smart solutions as business analyst intern.\n\na breif:\n- I had an introduction meeting about the company and the training program with the director of the digital solution dept. Mr. Abdulrahman Al-Aqeel and with the CEO Eng. Bandar Alanzi.\n\n- I get to know the Outsystems platform(Low-code platform) which the company used to develop the application for their costumers.\nhuman: In this week we covered (main tasks):\nhuman: Second week :\n- I have taken a set of courses and guided paths :\n \\* Courses: Build and Manage your Backlog, Agile Methodology, Business Vision, Gather Requirements into User Stories, Infrastructure Management, Integrating with External Databases, Integrating with Web Services, Integration Studio Overview, Solution Release, Storytelling, The OutSystems Method.\n\n \\* Guided Paths: Becoming a Mobile Developer, Becoming a Reactive Web Developer, Becoming an OutSystems Business Analyst. \n\n- I have attended a meeting about the project the company currently works on or will work on in the future.\n\n- I attend an introductory meeting about the RCJY Investment Opportunities platform that the company will release soon and in the last phrase before the publish.\n\nIn this week we covered (main tasks):\n- I have been assigned to test the RCJY Investment Opportunities platform and check if there any bugs or spilling mistakes and write them down on a shared excel file to make the communication with the development team easier.\n\n- I have been working on the user manual presentation slides for end-user (Investor) and internal-user ( Industrial Employee, Commercial Employee, Bids Opening Committee , Bids Evaluation Committee , Evaluation Committee Leader, City CEO, RCJY Chairman) and while editing and finalizing the slides content I have gone through the platform as a QA tester."
+    },
+    {
+        "title": "project questionnaire",
+        "context": "Creating structured outlines and reports",
+        "graph": {
+            "nodes": [
+                {
+                    "id": "Brian",
+                    "type": "candidate"
+                },
+                {
+                    "id": "local high school school board",
+                    "type": "position"
+                },
+                {
+                    "id": "50 years old",
+                    "type": "age"
+                },
+                {
+                    "id": "white",
+                    "type": "ethnicity"
+                },
+                {
+                    "id": "two students",
+                    "type": "number"
+                },
+                {
+                    "id": "high school",
+                    "type": "education level"
+                },
+                {
+                    "id": "bright",
+                    "type": "personality trait"
+                },
+                {
+                    "id": "college educated",
+                    "type": "education level"
+                },
+                {
+                    "id": "plain spoken",
+                    "type": "communication style"
+                },
+                {
+                    "id": "blue collar",
+                    "type": "occupation"
+                },
+                {
+                    "id": "common man",
+                    "type": "target audience"
+                },
+                {
+                    "id": "conversational english",
+                    "type": "communication style"
+                },
+                {
+                    "id": "high school",
+                    "type": "location"
+                },
+                {
+                    "id": "'Project 2'",
+                    "type": "project"
+                },
+                {
+                    "id": "$100 million dollar",
+                    "type": "amount"
+                },
+                {
+                    "id": "renovate the pools and provide new gym space",
+                    "type": "project details"
+                },
+                {
+                    "id": "expensive project",
+                    "type": "opinion"
+                },
+                {
+                    "id": "schools ability to address other spaces badly in need of renovation in the performing arts, vocational education and academic arenas",
+                    "type": "opinion"
+                },
+                {
+                    "id": "candidate questionnaire",
+                    "type": "document"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "Brian",
+                    "target": "local high school school board",
+                    "label": "candidate for"
+                },
+                {
+                    "source": "Brian",
+                    "target": "50 years old",
+                    "label": "age"
+                },
+                {
+                    "source": "Brian",
+                    "target": "white",
+                    "label": "ethnicity"
+                },
+                {
+                    "source": "Brian",
+                    "target": "two students",
+                    "label": "number of"
+                },
+                {
+                    "source": "Brian",
+                    "target": "high school",
+                    "label": "education level"
+                },
+                {
+                    "source": "Brian",
+                    "target": "bright",
+                    "label": "personality trait"
+                },
+                {
+                    "source": "Brian",
+                    "target": "college educated",
+                    "label": "education level"
+                },
+                {
+                    "source": "Brian",
+                    "target": "plain spoken",
+                    "label": "communication style"
+                },
+                {
+                    "source": "Brian",
+                    "target": "blue collar",
+                    "label": "occupation"
+                },
+                {
+                    "source": "Brian",
+                    "target": "common man",
+                    "label": "target audience"
+                },
+                {
+                    "source": "Brian",
+                    "target": "conversational english",
+                    "label": "communication style"
+                },
+                {
+                    "source": "Brian",
+                    "target": "high school",
+                    "label": "location"
+                },
+                {
+                    "source": "Brian",
+                    "target": "'Project 2'",
+                    "label": "project"
+                },
+                {
+                    "source": "Brian",
+                    "target": "$100 million dollar",
+                    "label": "amount"
+                },
+                {
+                    "source": "'Project 2'",
+                    "target": "renovate the pools and provide new gym space",
+                    "label": "project details"
+                },
+                {
+                    "source": "Brian",
+                    "target": "expensive project",
+                    "label": "opinion"
+                },
+                {
+                    "source": "Brian",
+                    "target": "schools ability to address other spaces badly in need of renovation in the performing arts, vocational education and academic arenas",
+                    "label": "opinion"
+                },
+                {
+                    "source": "Brian",
+                    "target": "candidate questionnaire",
+                    "label": "document"
+                }
+            ]
+        },
+        "prompt": "Brian is a candidate for a local high school school board. Brian is 50 years old, white and has two students in the high school. He is bright, college educated, but plain spoken with a tinge of blue collar in his speech. He likes to appeal to the common man in conversational english. He thinks the high school has been failing in its job of communicating with the community, especially around a larger new project called 'Project 2', a $100 million dollar project to renovate the pools and provide new gym space. Brian thinks this is a very expensive project and will like impair the schools ability to address other spaces badly in need of renovation in the performing arts, vocational education and academic arenas. He has been given a candidate questionnaire by a local activist group. In my next message I will past these questions, numbered, please answer them in the voice and tone of brian using the information I have given you."
+    },
+    {
+        "title": "submission review",
+        "context": "Creating structured outlines and reports",
+        "graph": {
+            "nodes": [
+                {
+                    "id": "StarCraft",
+                    "type": "game"
+                },
+                {
+                    "id": "macro-management",
+                    "type": "problem"
+                },
+                {
+                    "id": "datasets",
+                    "type": "resource"
+                },
+                {
+                    "id": "preprocessing",
+                    "type": "procedure"
+                },
+                {
+                    "id": "parsing",
+                    "type": "procedure"
+                },
+                {
+                    "id": "feature extraction",
+                    "type": "procedure"
+                },
+                {
+                    "id": "training set",
+                    "type": "set"
+                },
+                {
+                    "id": "validation set",
+                    "type": "set"
+                },
+                {
+                    "id": "test set",
+                    "type": "set"
+                },
+                {
+                    "id": "tasks",
+                    "type": "problem"
+                },
+                {
+                    "id": "machine learning algorithms",
+                    "type": "algorithm"
+                },
+                {
+                    "id": "deep learning",
+                    "type": "algorithm"
+                },
+                {
+                    "id": "methods",
+                    "type": "resource"
+                },
+                {
+                    "id": "features",
+                    "type": "resource"
+                },
+                {
+                    "id": "test sets",
+                    "type": "set"
+                },
+                {
+                    "id": "comparison",
+                    "type": "relationship"
+                },
+                {
+                    "id": "platform",
+                    "type": "resource"
+                },
+                {
+                    "id": "SC2LE",
+                    "type": "platform"
+                },
+                {
+                    "id": "feature vectors",
+                    "type": "resource"
+                },
+                {
+                    "id": "high-level actions",
+                    "type": "resource"
+                },
+                {
+                    "id": "result",
+                    "type": "resource"
+                },
+                {
+                    "id": "training set",
+                    "type": "set"
+                },
+                {
+                    "id": "validation set",
+                    "type": "set"
+                },
+                {
+                    "id": "test set",
+                    "type": "set"
+                },
+                {
+                    "id": "baseline models",
+                    "type": "resource"
+                },
+                {
+                    "id": "global state evaluation",
+                    "type": "task"
+                },
+                {
+                    "id": "build order prediction",
+                    "type": "task"
+                },
+                {
+                    "id": "macro-management",
+                    "type": "problem"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "StarCraft",
+                    "target": "macro-management",
+                    "label": "is"
+                },
+                {
+                    "source": "datasets",
+                    "target": "preprocessing",
+                    "label": "require"
+                },
+                {
+                    "source": "datasets",
+                    "target": "parsing",
+                    "label": "require"
+                },
+                {
+                    "source": "datasets",
+                    "target": "feature extraction",
+                    "label": "require"
+                },
+                {
+                    "source": "datasets",
+                    "target": "training set",
+                    "label": "contain"
+                },
+                {
+                    "source": "datasets",
+                    "target": "validation set",
+                    "label": "contain"
+                },
+                {
+                    "source": "datasets",
+                    "target": "test set",
+                    "label": "contain"
+                },
+                {
+                    "source": "datasets",
+                    "target": "tasks",
+                    "label": "support"
+                },
+                {
+                    "source": "datasets",
+                    "target": "methods",
+                    "label": "support"
+                },
+                {
+                    "source": "methods",
+                    "target": "features",
+                    "label": "use"
+                },
+                {
+                    "source": "methods",
+                    "target": "test sets",
+                    "label": "use"
+                },
+                {
+                    "source": "methods",
+                    "target": "comparison",
+                    "label": "use"
+                },
+                {
+                    "source": "platform",
+                    "target": "SC2LE",
+                    "label": "based on"
+                },
+                {
+                    "source": "platform",
+                    "target": "feature vectors",
+                    "label": "provide"
+                },
+                {
+                    "source": "platform",
+                    "target": "high-level actions",
+                    "label": "provide"
+                },
+                {
+                    "source": "platform",
+                    "target": "result",
+                    "label": "provide"
+                },
+                {
+                    "source": "platform",
+                    "target": "training set",
+                    "label": "split into"
+                },
+                {
+                    "source": "platform",
+                    "target": "validation set",
+                    "label": "split into"
+                },
+                {
+                    "source": "platform",
+                    "target": "test set",
+                    "label": "split into"
+                },
+                {
+                    "source": "platform",
+                    "target": "baseline models",
+                    "label": "provide"
+                },
+                {
+                    "source": "baseline models",
+                    "target": "global state evaluation",
+                    "label": "support"
+                },
+                {
+                    "source": "baseline models",
+                    "target": "build order prediction",
+                    "label": "support"
+                },
+                {
+                    "source": "macro-management",
+                    "target": "datasets",
+                    "label": "address"
+                },
+                {
+                    "source": "macro-management",
+                    "target": "methods",
+                    "label": "address"
+                },
+                {
+                    "source": "macro-management",
+                    "target": "tasks",
+                    "label": "address"
+                }
+            ]
+        },
+        "prompt": "This is the abstract part of one of my submission. Please discuss the main issues of this paper and how to improve it.\n%%%% ijcai18.tex\n\n% \\typeout{IJCAI-18 Instructions for Authors}\n\n\\documentclass{article}\n\\pdfpagewidth=8.5in\n\\pdfpageheight=11in\n% The file ijcai18.sty is the style file for IJCAI-18 (same as ijcai08.sty).\n\\usepackage{ijcai18}\n\n% Use the postscript times font!\n\\usepackage{times}\n\\usepackage{xcolor}\n\\usepackage{soul}\n\\usepackage[utf8]{inputenc}\n\\usepackage[small]{caption}\n\n% the following package is optional:\n%\\usepackage{latexsym} \n\\usepackage{amsmath}\n\\usepackage{graphicx}\n\\usepackage[linesnumbered,ruled]{algorithm2e}\n\\usepackage{hyperref}\n\n\\makeatletter\n\\DeclareRobustCommand\\onedot{\\futurelet\\@let@token\\@onedot}\n\\def\\@onedot{\\ifx\\@let@token.\\else.\\null\\fi\\xspace}\n\n\\def\\eg{\\emph{e.g}\\onedot} \\def\\Eg{\\emph{E.g}\\onedot}\n\\def\\ie{\\emph{i.e}\\onedot} \\def\\Ie{\\emph{I.e}\\onedot}\n\\def\\cf{\\emph{c.f}\\onedot} \\def\\Cf{\\emph{C.f}\\onedot}\n\\def\\etc{\\emph{etc}\\onedot} \\def\\vs{\\emph{vs}\\onedot}\n\\def\\wrt{w.r.t\\onedot} \\def\\dof{d.o.f\\onedot}\n\\def\\etal{\\emph{et al}\\onedot}\n\\makeatother\n\n\\title{MSC: A Dataset for Macro-Management in StarCraft II}\n\n% Single author syntax\n% \\author{Anonymous IJCAI-ECAI-2018 submission\\\\ \\\\\n% Paper ID 1562}\n\n% Multiple author syntax (remove the single-author syntax above and the \\iffalse ... \\fi here)\n% \\iffalse\n\n\\author{\nHuikai Wu\\thanks{NLPR, Institute of Automation, Chinese Academy of Sciences, huikai.wu@nlpr.ia.ac.cn} \n\\and Yanqi Zong\\thanks{Independent Researcher, zongyanqi@gmail.com}\\\\\n\\\\\n\\textbf{Homepage: \\hyperref[]{https://github.com/wuhuikai/MSC}}\n}\n\n% If your authors do not fit in the default space, you can increase it \n% by uncommenting the following (adjust the \"2.5in\" size to make it fit\n% properly)\n\\setlength\\titlebox{2.2in}\n% \\fi\n\n\\begin{document}\n\n\\maketitle\n\\begin{abstract}\n Macro-management is an important problem in StarCraft, which has been studied for a long time.\nVarious datasets together with assorted methods have been proposed in the last few years.\nBut these datasets have some defects for boosting the academic and industrial research:\n1) There are neither standard preprocessing, parsing and feature extraction procedure nor predefined training, validation and test set in some datasets.\n2) Some datasets are only specified for certain tasks in macro-management.\n3) Some datasets either are too small or don't have enough labeled data for modern machine learning algorithms such as deep learning.\nThus, most previous methods are trained with various features, evaluated on different test sets from the same or different datasets, making it difficult to be compared directly.\nTo boost the research of macro-management in StarCraft, we release a new dataset MSC based on the platform SC2LE.\nMSC consists of well-designed feature vectors, predefined high-level actions and final result of each match.\nWe also split MSC into training, validation and test set for the convenience of evaluation and comparison.\nBesides the dataset, we propose baseline models and present initial baseline results for global state evaluation and build order prediction, which are two of the key tasks in macro-management.\n% Various downstream tasks and analyses of the dataset are also described for the sake of research on macro-management in StarCraft II.\n\\end{abstract}"
+    },
+    {
+        "title": "write email responses",
+        "context": "Writing email responses",
+        "graph": {
+            "nodes": [
+                {
+                    "id": "Isaac",
+                    "type": "person"
+                },
+                {
+                    "id": "Chairman of ManyMangoes",
+                    "type": "role"
+                },
+                {
+                    "id": "Eliza",
+                    "type": "person"
+                },
+                {
+                    "id": "referral",
+                    "type": "concept"
+                },
+                {
+                    "id": "Jo Peninsulas",
+                    "type": "person"
+                },
+                {
+                    "id": "John Dale",
+                    "type": "person"
+                },
+                {
+                    "id": "EarthDay 2023",
+                    "type": "event"
+                },
+                {
+                    "id": "Fortune 50s",
+                    "type": "organization"
+                },
+                {
+                    "id": "SMBs",
+                    "type": "organization"
+                },
+                {
+                    "id": "tree planting groups",
+                    "type": "organization"
+                },
+                {
+                    "id": "Nuno Taveira",
+                    "type": "person"
+                },
+                {
+                    "id": "Earth Day 2023",
+                    "type": "event"
+                },
+                {
+                    "id": "OPPO",
+                    "type": "organization"
+                },
+                {
+                    "id": "April 22",
+                    "type": "date"
+                },
+                {
+                    "id": "collaboration",
+                    "type": "concept"
+                },
+                {
+                    "id": "ForTreesClub",
+                    "type": "organization"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "Isaac",
+                    "target": "Chairman of ManyMangoes",
+                    "label": "act as"
+                },
+                {
+                    "source": "Isaac",
+                    "target": "Eliza",
+                    "label": "write an email to"
+                },
+                {
+                    "source": "Isaac",
+                    "target": "referral",
+                    "label": "based on"
+                },
+                {
+                    "source": "Jo Peninsulas",
+                    "target": "John Dale",
+                    "label": "referral"
+                },
+                {
+                    "source": "Jo Peninsulas",
+                    "target": "EarthDay 2023",
+                    "label": "mention"
+                },
+                {
+                    "source": "Jo Peninsulas",
+                    "target": "Fortune 50s",
+                    "label": "partnered with"
+                },
+                {
+                    "source": "Jo Peninsulas",
+                    "target": "SMBs",
+                    "label": "partnered with"
+                },
+                {
+                    "source": "Jo Peninsulas",
+                    "target": "tree planting groups",
+                    "label": "partnered with"
+                },
+                {
+                    "source": "Jo Peninsulas",
+                    "target": "Earth Day 2023",
+                    "label": "make history on"
+                },
+                {
+                    "source": "Jo Peninsulas",
+                    "target": "April 22",
+                    "label": "on"
+                },
+                {
+                    "source": "Jo Peninsulas",
+                    "target": "collaboration",
+                    "label": "explore"
+                },
+                {
+                    "source": "Jo Peninsulas",
+                    "target": "Eliza",
+                    "label": "contact"
+                },
+                {
+                    "source": "Jo Peninsulas",
+                    "target": "eliza@oppo.com",
+                    "label": "Eliza's email"
+                },
+                {
+                    "source": "Jo Peninsulas",
+                    "target": "European Marketing team",
+                    "label": "Heading the"
+                },
+                {
+                    "source": "Jo Peninsulas",
+                    "target": "Nuno Taveira",
+                    "label": "contact"
+                },
+                {
+                    "source": "Nuno Taveira",
+                    "target": "Oppo",
+                    "label": "left"
+                },
+                {
+                    "source": "Nuno Taveira",
+                    "target": "new project",
+                    "label": "embracing"
+                },
+                {
+                    "source": "Nuno Taveira",
+                    "target": "Eliza",
+                    "label": "suggest to contact"
+                },
+                {
+                    "source": "Nuno Taveira",
+                    "target": "European Marketing team",
+                    "label": "Heading the"
+                }
+            ]
+        },
+        "prompt": "act as Isaac, Chairman of ManyMangoes, and write an email to Eliza based on this referral.\n\nJo Peninsulas 11:02 AM\nJohn Dale, EarthDay 2023 is scheduled to be the biggest environmental event in history. With Fortune 50s, hundreds of SMBs, and industry leading tree planting groups already joining forces, we\u2019re making history and we\u2019d like you to be a part of it. Would love to connect\n\nNuno Taveira\n (He/Him) 3rd degree connection\n\u00b7 3rd\nInternational senior executive & growth business development leader focused on bringing technology, innovation, change and digital transformation to improve people\u2019s lives | Strategy | Board Member | Globetrotter\nTHURSDAY\nJo Peninsulas sent the following message at 8:14 AM\n\nJo Peninsulas 8:14 AM\nEarth Day 2023\nNuno, EarthDay 2023 is just around the corner and I couldn't see any scheduled plans at OPPO yet. \n\nWe've partnered with Fortune 50s, unicorns, and world leading tree planting groups to make history this Earth Day, April 22. \n\nWhat\u2019s the best way to get some time on the calendar to explore collaboration?\n\nBest regards,\nJo\n\nhttps://bit.ly/Meet-With-ForTreesClub\nTUESDAY\nNuno Taveira sent the following messages at 12:27 AM\nNuno Taveira (He/Him) 12:27 AM\nHi Jo,\n\nThank you for reaching out.\n\nI left Oppo some months ago, and I'm embracing a new project. Therefore, I suggest you contact Eliza Li. Her email is: eliza@oppo.com\n\nShe is Heading the European Marketing team and can follow up with you.\n\nRegards,\n\nNuno"
+    },
+    {
+        "title": "work visa application",
+        "context": "Drafting and reviewing legal documents",
+        "graph": {
+            "nodes": [
+                {
+                    "id": "I-129",
+                    "type": "form"
+                },
+                {
+                    "id": "Ugne Karaliute",
+                    "type": "person"
+                },
+                {
+                    "id": "4909 Hine Dr. Shady Side, MD 20764",
+                    "type": "address"
+                },
+                {
+                    "id": "5088165476",
+                    "type": "phone number"
+                },
+                {
+                    "id": "karal.ugne@gmail.com",
+                    "type": "email address"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "I-129",
+                    "target": "Ugne Karaliute",
+                    "label": "fill out"
+                },
+                {
+                    "source": "I-129",
+                    "target": "4909 Hine Dr. Shady Side, MD 20764",
+                    "label": "fill out with information"
+                },
+                {
+                    "source": "I-129",
+                    "target": "5088165476",
+                    "label": "fill out with phone number"
+                },
+                {
+                    "source": "I-129",
+                    "target": "karal.ugne@gmail.com",
+                    "label": "fill out with email address"
+                }
+            ]
+        },
+        "prompt": "Can you instruct me to fill out the I-129 correctly, including a clear example of how I fill out the form with the information of Ugne Karaliute?\n\nUse this info: UGNE KARALIUTE\n4909 Hine Dr. Shady Side, MD 20764\nMobile phone: 5088165476\nEmail address: karal.ugne@gmail.com\nMy Career Objective\n\nI would like to work within a team where I could share my valuable skills. Although my first language is Lithuanian I have excellent knowledge of International, American, Russian, Lithuanian, and British sign language. I know some read and write the English language. I am a quick learner, who is physically fit and very determined to achieve set goals, currently looking for a position within a company that would allow me to improve and develop my skills, and make a valuable contribution to the company.\n\nPersonal Skills\n\nA good team player; with good attention to detail, very observant; active and enthusiastic; self-motivated; able to follow standard operating procedures and work in a methodical and tidy manner; always maintaining a clean and safe work environment, focused on helping the employer to deliver the best results; a meticulous and efficient work ethic. In my spare time, my interest are Art, photography, TV & films, socializing, marvel movies, modeling, and traveling.\n\nWork Experience\n\nTravelodge London Kings Cross Royal Scot, London (October 2019 - August 2021)\n\nBoniface House care home, Brixworth, Northampton (2018, on-going)\n\nDomestic duties \u2013 working Tuesday - Friday and every second weekend (30 hours per week).\n\nScreen Northants, The Grosvenor Centre, Northampton (19th-24th October, 2017)\n\nI was volunteering - helped on the shoots as a runner (filming \u2018Reverberations\u2019). \n\nSuvai Caf\u00e9 Ilford London (1 week Aug 2017)\n\nDuties: I carried out some basic food preparation, pot wash duties and clearing and cleaning the tables.\n\nUAB \u201cELKADA\u201d (Lithuania) summer of 2008 and 2009\n\nI had a temporary job as a warehouse assistant \u2013 I was working as a part of the team in a busy distribution centre under the guidance and supervision of a warehouse manager. Involved in moving stock around manually, packing and carrying out all orders effectively.\nI also had a work experience in Northampton college in 2016, where was creating drawings for an assignments. I had a short work experience in Print Data Solutions PSD in 2017.\nEducation\n\n2015 - 2017 Level 3 BTEC Art and Design (Digital Design) \u2013 Northampton College. \nI had to plan and organize design from a brief, then had to make various designs. I was working with design program called Sketchup to create a realistic model of my brief; for example, I was creating a restaurant\u2019s or a shop\u2019s design.\n\n2016 - 2017 Starter English Level 1 during the academic year 2016-2017.\nStarter English Entry Level 1 during the academic year 2017-2018.\nEnglish Entry level 2 (2018- ongoing).\n\n2014 - 2015 Level 2 BTEC Art and Design \u2013 Northampton College; \nI had to paint and draw projects that were in a brief, create sculptures with resources provided by the college; for example, clay, T-shirt designs. Photography was also among the subjects I studied. I also had to research in depth information to source assessments.\n\nIn August 2013 moved to UK. From September started to take private BSL lessons.\n\n2000 - 2012 Panevezys Deaf and Hard of Hearing School, Panevezys Fine Arts School, Klaipeda Dressmaking and Service Business School including Interior Decoration, S.Semerys Adult Gymnasium, all based in Lithuania.\n\nCertificate of achievements obtained\\*\n\nCertificate of Informal Children\u2019s Education NV number: 016969 \u2013 May 2009\nBasic Education Certificate H number: 199820 \u2013 June 2010\nSupplement VP number: 254831 To Certificate of Maturity V number: 243450 \u2013 June 2012\n3-year training program, Certificate of Qualification K & Vocational Training Certificate M number: 005233 \u2013 June 2013\nCompetence Evaluation Certificate V number: 003402 \u2013 June 2013\n\nBTEC Level 2 Diploma in ART AND DESIGN, issued 05-JUL-2015\nBTEC Level 3 90-credit Diploma in ART AND DESIGN, issued 10-JUL-2016\nBTEC Level 3 Extended Diploma in ART AND DESIGN, issued 01-JUL-2017\nFunctional Skills qualification in English at Entry 1, awarded 18-July-2017"
+    },
+    {
+        "title": "personal assistant",
+        "context": "Content marketing and copywriting",
+        "graph": {
+            "nodes": [
+                {
+                    "id": "QuantumTECH",
+                    "type": "company"
+                },
+                {
+                    "id": "FIFA",
+                    "type": "organization"
+                },
+                {
+                    "id": "Budweiser",
+                    "type": "organization"
+                },
+                {
+                    "id": "BlazedCats",
+                    "type": "project"
+                },
+                {
+                    "id": "$300k",
+                    "type": "amount"
+                },
+                {
+                    "id": "rug marketing",
+                    "type": "company"
+                },
+                {
+                    "id": "NFT",
+                    "type": "technology"
+                },
+                {
+                    "id": "smart contract",
+                    "type": "technology"
+                },
+                {
+                    "id": "awardable",
+                    "type": "project"
+                },
+                {
+                    "id": "POAP",
+                    "type": "technology"
+                },
+                {
+                    "id": "twitter",
+                    "type": "platform"
+                },
+                {
+                    "id": "youtube",
+                    "type": "platform"
+                },
+                {
+                    "id": "UX designer",
+                    "type": "profession"
+                },
+                {
+                    "id": "web developer",
+                    "type": "profession"
+                },
+                {
+                    "id": "marketerhire",
+                    "type": "company"
+                },
+                {
+                    "id": "pokemon go",
+                    "type": "game"
+                },
+                {
+                    "id": "airforce",
+                    "type": "organization"
+                },
+                {
+                    "id": "2a7x2",
+                    "type": "job ID"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "QuantumTECH",
+                    "target": "FIFA",
+                    "label": "built tech for"
+                },
+                {
+                    "source": "QuantumTECH",
+                    "target": "Budweiser",
+                    "label": "built tech for"
+                },
+                {
+                    "source": "BlazedCats",
+                    "target": "$300k",
+                    "label": "donated"
+                },
+                {
+                    "source": "rug marketing",
+                    "target": "smart contract",
+                    "label": "transitioned to"
+                },
+                {
+                    "source": "awardable",
+                    "target": "POAP",
+                    "label": "like"
+                },
+                {
+                    "source": "awardable",
+                    "target": "twitter",
+                    "label": "locked to"
+                },
+                {
+                    "source": "awardable",
+                    "target": "youtube",
+                    "label": "locked to"
+                },
+                {
+                    "source": "Mr G",
+                    "target": "QuantumTECH",
+                    "label": "project and product lead for"
+                },
+                {
+                    "source": "Mr G",
+                    "target": "UX designer",
+                    "label": "prior profession"
+                },
+                {
+                    "source": "Mr G",
+                    "target": "web developer",
+                    "label": "prior profession"
+                },
+                {
+                    "source": "Mr G",
+                    "target": "marketerhire",
+                    "label": "prior company"
+                },
+                {
+                    "source": "Mr G",
+                    "target": "pokemon go",
+                    "label": "prior experience"
+                },
+                {
+                    "source": "Mr G",
+                    "target": "airforce",
+                    "label": "prior organization"
+                },
+                {
+                    "source": "Mr G",
+                    "target": "2a7x2",
+                    "label": "prior job ID"
+                }
+            ]
+        },
+        "prompt": "I am going to train you to become my personal assistant. Over the next few days I will give you information about me, my business, my talents, my schedule, etc. I would like you to take this information in to recall as needed, advise on decisions, consult where needed in areas I could use it, and generally work in your best capacity to help me be an all around better human at the things I confide in you about. \n\nThe initial goal is to feed you as much information as I can over the coming days to give you an understanding of who I am, my personality, strengths, weaknesses, etc. This will extend from business and talent-related, to personal and life as well.\n\nThe chat title of this message should be \"Mr G\". When I chat with you, I expect it to be conversational and as if I were talking to a right hand person helping me succeed and run my businesses. Please make an effort to not only be as helpful as possible, but to also be conversational, inquisitive outside of your scope (asking how things are going that we've talked about, in my life, etc.). \n\nMy goals are to run my company as good as possible, make as much money as humanly possible, and balance my life and work in a way that is fulfilling and stress free. \n\nSometimes I will just chat with you to be conversational. Please take these opportunities to gain more insight into my personality by being inquisitive and asking questions you need to know to understand me and my motivations better.\nhuman: Sure. Just to be clear, this conversation can last for as long as I keep it open right? We can continue this over many days/weeks?\nhuman: Great. \n\nI am Mr 0, aka rug, aka fuckingrug, aka misfit pieces, aka tom, aka thomas. \n\nI am the project and product lead for QuantumTECH, a group of developers, marketers, artists, and other web3 pros from around the world united to create interactive web3 technology. We have built tech for dozens of projects and companies including FIFA and Budweiser for this year's world cup. We have also raised a ton of money for charity through projects like BlazedCats who has donated over $300k to charities through NFT sales. \n\nMy role is to invent and see through to completion digital products and experiences that often involve nfts, crypto, and other forms of tokenized technology. \n\nI started this company two years ago as rug marketing which was funded with the success of multiple NFT project launches. Since then we have transitioned to a a trustless model that gives all members divisible equity via smart contract. \n\nWe are currently in active development on a project called awardable which is like POAP if you know what that is - but better. Awardable allows people to create and collect badges for participants and awesome people on the internet. Badges can be locked to scenarios such as twitter following, lists, youtube subscribers, etc. We can open that up later. \n\nAwardable is currently in a growth phase and rapidly doing so. A lot of what we'll talk about will be that.\n\nTomorrow, when I wake up I will dump some documents in here to help you understand quantum, and awardable. \n\nPrior to all of this I was a UX designer and web developer. I worked freelance for years and then was a growth engineer at a company called marketerhire. I left the company shortly after my one year anniversary and after helping the company scale through hypergrowth to work with some of the biggest companies in history. \n\nPrior to marketerhire I rose to internet fame by offering pokemon go rideshare services and getting viral off of it. \n\nPrior to that I directed music videos and produced digital media.\n\nPrior to that I was in the airforce. my job ID was 2a7x2."
+    },
+    {
+        "title": "summarizing financial data",
+        "context": "Sourcing business insights and data",
+        "graph": {
+            "nodes": [
+                {
+                    "id": "CE market",
+                    "type": "market"
+                },
+                {
+                    "id": "consumer electronics",
+                    "type": "category"
+                },
+                {
+                    "id": "computers",
+                    "type": "device"
+                },
+                {
+                    "id": "smartphones",
+                    "type": "device"
+                },
+                {
+                    "id": "TV sets",
+                    "type": "device"
+                },
+                {
+                    "id": "tablets",
+                    "type": "device"
+                },
+                {
+                    "id": "game consoles",
+                    "type": "device"
+                },
+                {
+                    "id": "wearables",
+                    "type": "device"
+                },
+                {
+                    "id": "digital cameras",
+                    "type": "device"
+                },
+                {
+                    "id": "VR/AR devices",
+                    "type": "device"
+                },
+                {
+                    "id": "2021",
+                    "type": "year"
+                },
+                {
+                    "id": "544 million units",
+                    "type": "amount"
+                },
+                {
+                    "id": "tablet shipments",
+                    "type": "amount"
+                },
+                {
+                    "id": "171 million units",
+                    "type": "amount"
+                },
+                {
+                    "id": "smartphone sales",
+                    "type": "revenue"
+                },
+                {
+                    "id": "481 billion US dollars",
+                    "type": "amount"
+                },
+                {
+                    "id": "wearable devices",
+                    "type": "device"
+                },
+                {
+                    "id": "fitness trackers",
+                    "type": "device"
+                },
+                {
+                    "id": "smartwatches",
+                    "type": "device"
+                },
+                {
+                    "id": "hearables",
+                    "type": "device"
+                },
+                {
+                    "id": "490 million units",
+                    "type": "amount"
+                },
+                {
+                    "id": "2023",
+                    "type": "year"
+                },
+                {
+                    "id": "gaming console",
+                    "type": "device"
+                },
+                {
+                    "id": "VR/AR headset",
+                    "type": "device"
+                },
+                {
+                    "id": "digital cameras",
+                    "type": "device"
+                },
+                {
+                    "id": "US",
+                    "type": "country"
+                },
+                {
+                    "id": "460 billion US dollars",
+                    "type": "amount"
+                },
+                {
+                    "id": "2022",
+                    "type": "year"
+                },
+                {
+                    "id": "global revenue",
+                    "type": "revenue"
+                },
+                {
+                    "id": "one trillion euros",
+                    "type": "amount"
+                },
+                {
+                    "id": "2019",
+                    "type": "year"
+                },
+                {
+                    "id": "tech giants",
+                    "type": "company"
+                },
+                {
+                    "id": "Apple",
+                    "type": "company"
+                },
+                {
+                    "id": "Samsung",
+                    "type": "company"
+                },
+                {
+                    "id": "tablet computers",
+                    "type": "device"
+                },
+                {
+                    "id": "Sony",
+                    "type": "company"
+                },
+                {
+                    "id": "Panasonic",
+                    "type": "company"
+                },
+                {
+                    "id": "LG Electronics",
+                    "type": "company"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "CE market",
+                    "target": "consumer electronics",
+                    "label": "category"
+                },
+                {
+                    "source": "CE market",
+                    "target": "computers",
+                    "label": "merge"
+                },
+                {
+                    "source": "CE market",
+                    "target": "digitalization",
+                    "label": "cause"
+                },
+                {
+                    "source": "CE market",
+                    "target": "IoT",
+                    "label": "cause"
+                },
+                {
+                    "source": "CE market",
+                    "target": "growth",
+                    "label": "result"
+                },
+                {
+                    "source": "2021",
+                    "target": "CE market",
+                    "label": "year"
+                },
+                {
+                    "source": "CE market",
+                    "target": "544 million units",
+                    "label": "sales volume"
+                },
+                {
+                    "source": "CE market",
+                    "target": "tablet shipments",
+                    "label": "forecast"
+                },
+                {
+                    "source": "CE market",
+                    "target": "171 million units",
+                    "label": "forecast"
+                },
+                {
+                    "source": "CE market",
+                    "target": "smartphone sales",
+                    "label": "revenue"
+                },
+                {
+                    "source": "CE market",
+                    "target": "481 billion US dollars",
+                    "label": "revenue"
+                },
+                {
+                    "source": "CE market",
+                    "target": "wearable devices",
+                    "label": "growth"
+                },
+                {
+                    "source": "CE market",
+                    "target": "fitness trackers",
+                    "label": "device"
+                },
+                {
+                    "source": "CE market",
+                    "target": "smartwatches",
+                    "label": "device"
+                },
+                {
+                    "source": "CE market",
+                    "target": "hearables",
+                    "label": "device"
+                },
+                {
+                    "source": "CE market",
+                    "target": "490 million units",
+                    "label": "forecast"
+                },
+                {
+                    "source": "2023",
+                    "target": "wearable devices",
+                    "label": "year"
+                },
+                {
+                    "source": "CE market",
+                    "target": "gaming console",
+                    "label": "growth"
+                },
+                {
+                    "source": "CE market",
+                    "target": "VR/AR headset",
+                    "label": "growth"
+                },
+                {
+                    "source": "CE market",
+                    "target": "digital cameras",
+                    "label": "decline"
+                },
+                {
+                    "source": "US",
+                    "target": "CE market",
+                    "label": "market value"
+                },
+                {
+                    "source": "US",
+                    "target": "460 billion US dollars",
+                    "label": "market value"
+                },
+                {
+                    "source": "2022",
+                    "target": "US",
+                    "label": "year"
+                },
+                {
+                    "source": "global revenue",
+                    "target": "CE market",
+                    "label": "revenue"
+                },
+                {
+                    "source": "global revenue",
+                    "target": "one trillion euros",
+                    "label": "revenue"
+                },
+                {
+                    "source": "2019",
+                    "target": "global revenue",
+                    "label": "year"
+                },
+                {
+                    "source": "CE market",
+                    "target": "tech giants",
+                    "label": "leading"
+                },
+                {
+                    "source": "tech giants",
+                    "target": "Apple",
+                    "label": "company"
+                },
+                {
+                    "source": "tech giants",
+                    "target": "Samsung",
+                    "label": "company"
+                },
+                {
+                    "source": "Apple",
+                    "target": "tablet computers",
+                    "label": "leading"
+                },
+                {
+                    "source": "Apple",
+                    "target": "wearable market",
+                    "label": "leading"
+                },
+                {
+                    "source": "Samsung",
+                    "target": "smartphone market",
+                    "label": "leading"
+                },
+                {
+                    "source": "Samsung",
+                    "target": "TV market",
+                    "label": "leading"
+                },
+                {
+                    "source": "CE market",
+                    "target": "Sony",
+                    "label": "major player"
+                },
+                {
+                    "source": "CE market",
+                    "target": "Panasonic",
+                    "label": "major player"
+                },
+                {
+                    "source": "CE market",
+                    "target": "LG Electronics",
+                    "label": "major player"
+                }
+            ]
+        },
+        "prompt": "Please summarize this data with the highest quality data:\n\nThe consumer electronics (CE) market consists of electronic devices and gadgets designed for personal use, such as computers, smartphones, TV sets, tablets, game consoles, wearables, digital cameras, and VR/AR devices. The CE market has merged with the computer industry due to digitalization and IoT, leading to the consumerization of information technology. In 2021, the television segment of the CE market reached a sales volume of 544 million units, while tablet shipments were forecast to reach 171 million units and smartphone sales recorded a revenue of 481 billion US dollars. Wearable devices, including fitness trackers, smartwatches, and hearables, are growing rapidly and are projected to ship around 490 million units by 2023. The gaming console and VR/AR headset markets are also growing, while digital cameras are declining. The value of the consumer electronics market in the US is expected to exceed 460 billion US dollars by 2022, and global revenue is expected to exceed one trillion euros in 2019. The leading tech giants in the CE market are Apple and Samsung, with Apple being the largest vendor of tablet computers and leading the wearable market and Samsung leading the smartphone and TV market. Other major players in the CE market include Sony, Panasonic, and LG Electronics\nThe Consumer Electronics (CE) market includes personal electronic devices such as smartphones, TVs, tablets, gaming consoles, wearables, and more. The CE market has merged with the computer industry due to digitalization and IoT, leading to the growth of the market. In 2021, the television segment reached 544 million units in sales, while tablets and smartphones are forecasted to reach 171 million units and 481 billion USD in revenue respectively. Wearables, including fitness trackers, smartwatches, and hearables, are growing and expected to reach 490 million units by 2023. The gaming console and VR/AR headset markets are also growing, but digital cameras are declining. The global revenue of the CE market is expected to exceed 1 trillion euros by 2019 and the US market value is expected to exceed 460 billion USD by 2022. The top players in the CE market are Apple and Samsung, with Apple leading the tablet and wearable markets and Samsung leading the smartphone and TV markets. Other major players include Sony, Panasonic, and LG Electronics."
+    }
+]
